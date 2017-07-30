@@ -1,0 +1,588 @@
+/*
+
+Cubelton HTML theme made by Uros Simic & Aleksa Nikolic
+
+*/
+
+body {
+	background-color: #ffffff;
+}
+
+@font-face {
+    font-family: Quicksand_Bold;
+    src: url("Fonts/Quicksand_Bold.otf");
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+	margin: 0;
+	font-family: Quicksand_Bold;
+}
+
+button {
+	text-decoration: none;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/* TOP BAR */
+
+#topbar {
+	width: 100%;
+	height: 90px;
+	background-color: #272727;
+}
+
+#topbar .logo {
+	float: left;
+	margin-top: 25px; 
+}
+
+#topbar .navigation {
+	float: right;
+	margin-top: 35px;
+}
+
+#topbar .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topbar .navigation ul li {
+	float: left;
+}
+
+#topbar .navigation ul li a {
+	font-size: 10px;
+	letter-spacing: 2px;
+    color: #ffffff;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: pointer; 
+ 	transition: color 0.2s ease;
+}
+
+#topbar .navigation ul li a:hover {
+	color: #c8c8c8;
+}
+
+/* SLIDER */
+
+#slider {
+	height: 655px;
+}
+
+#slider .left {
+	margin-top: 120px;
+}
+
+#slider .right {
+	background-image: url("Images/Slider.png");
+    background-size:cover;
+	background-repeat: no-repeat;
+    background-position: right;
+    height: 645px;
+	width: 100%;
+}
+
+#slider .line {
+	margin-top: 25px;
+}
+
+#slider .dribbble {
+	margin-top: 25px;
+	width: 95px;
+}
+
+#slider .dribbble img {
+	float: left;
+	margin-right: 79px;
+	margin-top: 10px;
+}
+
+#slider .instagram {
+	margin-top: 25px;
+	width: 95px;
+}
+
+#slider .instagram img {
+	float: left;
+	margin-right: 79px;
+	margin-top: 10px;
+}
+
+#slider .twitter {
+	margin-top: 25px;
+	width: 95px;
+}
+
+#slider .twitter img {
+	float: left;
+	margin-right: 79px;
+	margin-top: 10px;
+}
+
+#slider .right .text {
+	width: 500px;
+	height: auto;
+	float: right;
+	margin: 220px 300px 0 0;
+}
+
+#slider .right .text h3 {
+	font-family: Quicksand_Bold;
+	font-size: 10pt;
+	letter-spacing: 3px;
+	line-height: 165%;
+	text-align: right;
+	color: #272727;
+}
+
+#slider .right .text .button button {
+   	font-family: Quicksand_Bold;
+   	font-size: 9pt;
+   	letter-spacing: 2px;
+   	color: #272727;
+   	width: 150px;
+	height: 58px;
+   	background-color: #c6a47e;
+	-moz-border-radius: 27px;
+	-webkit-border-radius: 27px;
+	border-radius: 27px;
+	border: 0px solid #18ab29;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 0;
+	margin: 255px 0 0 650px;
+ 	transition: background-color 0.2s ease;
+}
+
+#slider .right .text .button button:hover {
+	background-color: #bf9e79;
+}
+
+#slider .right .text .button button:active {
+	position:relative;
+	top:2px;
+}
+
+/* ABOUT */
+
+#about {
+	margin-top: 100px;
+}
+
+#about .aboutimage {
+	width: 100%;
+	height: 637px;
+}
+
+#about .aboutimage img {
+	width: 380px;
+	height: 637px;
+}
+
+#about .abouttext {
+	width: 100%;
+	height: 637px;
+	background-color: #272727;
+	text-align: right;
+	float: right;
+}
+
+#about .abouttext .title {
+	margin: 75px 70px 0 0;
+}
+
+#about .abouttext .title h1 {
+	margin: 0 !important;
+	color: white;
+	font-family: Quicksand_Bold;
+	font-size: 14pt;
+	letter-spacing: 11px;
+	text-decoration: line-through;
+}
+
+#about .abouttext .desc {
+	margin: 100px 70px 0 0;
+	width: 600px;
+	float: right;
+}
+
+#about .abouttext .desc h3 {
+	margin: 0 !important;
+	color: white;
+	font-family: Quicksand_Bold;
+	font-size: 9pt;
+	letter-spacing: 3px;
+	line-height: 180%;
+	text-align: right;
+}
+
+#about .abouttext .name {
+	margin: 100px 70px 0 0;
+	float: right;
+	width: 600px;
+}
+
+#about .abouttext .name h2 {
+	margin: 0 !important;
+	color: white;
+	font-family: Quicksand_Bold;
+	font-size: 11pt;
+	letter-spacing: 5px;
+}
+
+#about .abouttext .name h3 {
+	margin: 10px 0 0 0 !important;
+	color: white;
+	font-family: Quicksand_Bold;
+	font-size: 9pt;
+	letter-spacing: 3px;
+}
+
+#about .abouttext .social {
+	margin: 100px 70px 0 0;
+	float: right;
+	text-align: right;
+	width: 600px;
+}
+
+#about .abouttext .social h2 {
+	margin: 0 !important;
+	color: white;
+	font-family: Quicksand_Bold;
+	font-size: 9pt;
+	letter-spacing: 6px;
+}
+
+#about .abouttext .social h2 a {
+	margin: 0 !important;
+	color: white;
+	font-family: Quicksand_Bold;
+	font-size: 8pt;
+	letter-spacing: 6px;
+}
+
+#about .abouttext .social h2 a:hover {
+	text-decoration: line-through;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+	margin-top: 100px;
+}
+
+#portfolio .title h1 {
+	margin: 0 !important;
+	color: #272727;
+	font-family: Quicksand_Bold;
+	font-size: 14pt;
+	letter-spacing: 11px;
+	text-decoration: line-through;
+}
+
+#portfolio .articles {
+	margin-top: 100px;
+}
+
+#portfolio .articles .item {
+  	width: 100%;
+  	height: 700px;
+  	position: relative;
+  	float: left;
+  	background: black;
+}
+
+#portfolio .articles .item h1 {
+	position: absolute;
+	top: 40px;
+	left: 15px;
+	margin: 0;
+	width: auto;
+	font-family: Quicksand_Bold;
+	font-size: 13pt;
+	letter-spacing: 5px;
+	color: #c6a47e;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;	
+}
+
+#portfolio .articles .item h2 {
+	position: absolute;
+	top: 65px;
+	left: 15px;
+	margin: 0;
+	width: auto;
+	font-family: Quicksand_Bold;
+	font-size: 12pt;
+	letter-spacing: 3px;
+	color: #272727;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;	
+}
+
+#portfolio .articles .item h3 {
+   	position: absolute; 
+   	top: 341px;
+   	left: 140px;
+   	margin: 0;
+   	width: auto;
+	font-family: Quicksand_Bold;
+	font-size: 10pt;
+	letter-spacing: 2px;
+	color: #272727;
+	width: 100px;
+	height: 100px;
+	background: #c6a47e;
+   	-moz-border-radius: 70px; 
+   	-webkit-border-radius: 70px; 
+   	border-radius: 70px;	
+   	text-align: center;
+   	line-height: 100px;
+	opacity: 0;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+#portfolio .articles .item img {
+	width: 100%;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;	
+}
+
+#portfolio .articles .item:hover > img {
+	opacity: 0.3;
+}
+
+#portfolio .articles .item:hover > h1 {
+	opacity: 0;
+}
+
+#portfolio .articles .item:hover > h2 {
+	opacity: 0;
+}
+
+#portfolio .articles .item:hover > a h3 {
+	opacity: 1;
+}
+
+/* CONTACT */
+
+#contact {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#contact .title h1 {
+	margin: 0 !important;
+	float: right;
+	color: #272727;
+	font-family: Quicksand_Bold;
+	font-size: 14pt;
+	letter-spacing: 11px;
+	text-decoration: line-through;
+}
+
+#contact .name {
+	margin-top: 120px;
+	float: left;
+}
+
+#contact .name input {
+	width: 380px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #272727;
+    font-family: Quicksand_Bold;
+}
+
+#contact .mail {
+	margin-top: 100px;
+	float: left;
+}
+
+#contact .mail input {
+	width: 380px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #272727;
+   	font-family: Quicksand_Bold;
+}
+
+#contact .message {
+	margin-top: 100px;
+}
+
+#contact .message textarea {
+	width: 100%;
+	height: 250px;
+	padding: 7px;
+    outline: 0;
+    background: transparent;
+    border: 1px solid #272727;
+   	font-family: Quicksand_Bold;
+}
+
+#contact .submit {
+	margin-top: 140px;
+	float: right;
+	width: 380px;
+}
+
+#contact .submit h3 {
+	margin: 0 !important;
+	color: #272727;
+	font-family: Quicksand_Bold;
+	font-size: 9pt;
+	letter-spacing: 2px;
+	line-height: 160%;
+	text-align: right;
+}
+
+#contact .submit button {
+   	font-family: Quicksand_Bold;
+   	font-size: 9pt;
+   	letter-spacing: 2px;
+   	color: #272727;
+   	width: 150px;
+	height: 58px;
+   	background-color: #c6a47e;
+	-moz-border-radius: 27px;
+	-webkit-border-radius: 27px;
+	border-radius: 27px;
+	border: 0px solid #18ab29;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 0;
+	margin: 100px 0 0 0;
+	float: right;
+ 	transition: background-color 0.2s ease;
+}
+
+#contact .submit button:hover {
+	background-color: #bf9e79;
+}
+
+#contact .submit button:active {
+	position:relative;
+	top:2px;
+}
+
+/* FOOTER */
+
+#footer {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#footer h3 {
+	font-family: Quicksand_Bold;
+	font-size: 9pt;
+	letter-spacing: 2px;
+	color: #272727;
+	margin: 0!important;
+}
+
+#footer h2 {
+	font-family: Quicksand_Bold;
+	font-size: 9pt;
+	letter-spacing: 2px;
+	color: #272727;
+	margin: 5px 0 0 0!important;
+}
+
+#footer h2 a {
+	text-decoration: none;
+	color: #c6a47e;
+
+}
+
+#footer h2 a:hover {
+	text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+@media (max-width : 1200px) {
+	#about .abouttext .desc {
+		width: 500px;
+	}
+
+	#portfolio .articles .item {
+		height: auto;
+	}
+
+	#portfolio .articles .item h3 {
+		top: 238px;
+		left: 107px;
+	}
+}
+
+@media (max-width : 992px) {
+	#slider .right .text {
+		width: 350px;
+		margin: 200px 300px 0 0;
+	}	
+
+	#slider .right .text .button button {
+		margin-left: 500px;
+	}
+
+	#about .abouttext .desc {
+		width: 380px;
+	}
+
+	#portfolio .articles .item h3 {
+		top: 171px;
+		left: 70px;
+	}
+
+	#contact .name input {
+		width: 270px;
+	}
+
+	#contact .mail input {
+		width: 270px;
+	}
+
+	#contact .submit h3 {
+		width: 300px;
+		float: right;
+	}
+
+}
+
+@media (max-width : 700px) {
+		#topbar {
+		height: 200px;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
